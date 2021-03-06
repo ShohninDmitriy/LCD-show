@@ -1,3 +1,8 @@
+
+git clone https://github.com/ShohninDmitriy/LCD-show.git
+cd LCD-show/
+
+
 # 2.8inch RPi LCD (A)
 
 ### Description:
