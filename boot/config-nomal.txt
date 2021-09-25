@@ -63,3 +63,7 @@ max_framebuffers=2
 
 [all]
 #dtoverlay=vc4-fkms-v3d
+start_x=0
+gpu_mem=64
+force_turbo=1
+dtoverlay=disable-bt
