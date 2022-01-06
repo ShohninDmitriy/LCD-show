@@ -61,6 +61,11 @@ dtparam=audio=on
 #dtoverlay=vc4-fkms-v3d
 max_framebuffers=2
 
+[pi0w]
+#pi0(w) Specific
+enable_uart=1
+dtoverlay=pi3-disable-bt
+
 [all]
 #dtoverlay=vc4-fkms-v3d
 start_x=0
@@ -71,8 +76,3 @@ force_turbo=1
 #Enables UART Communication by default
 enable_uart=1
 dtoverlay=disable-bt 
-
-[pi0w]
-#pi0(w) Specific
-enable_uart=1
-dtoverlay=pi3-disable-bt
